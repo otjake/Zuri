@@ -22,5 +22,6 @@ ob_start();
     <hr>
 
 </form>
+<a href="register.php">No account? Register here</a>
 </body>
 </html>
