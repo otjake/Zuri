@@ -18,7 +18,8 @@ if(isset($_GET['status'])){
         echo "<h1 style='color: green'><strong>Update success</strong></h1>";
     }
 }
-echo $_SESSION['name'];
+echo "Name:".$_SESSION['name'];
+echo "Unique ID:".$_SESSION['id'];
 ?>
 <h1>Update your password</h1>
 <form action="controls.php" method="post">
